@@ -39,5 +39,17 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
     "@babel/runtime": "7.0.0-beta.42"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oriolr/Speech-Developer.git"
+  },
+  "author": "Rosler Oriol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oriolr/Speech-Developer/issues"
+  },
+  "homepage": "https://github.com/oriolr/Speech-Developer#readme"
 }
