@@ -66,7 +66,7 @@ export class UserForm extends Component {
             thirdPoint, 
             thirdTransition, 
             summary}
-// eslint-disable-next-line
+
         switch (step) {
             case 1: 
                 return(
@@ -164,6 +164,8 @@ export class UserForm extends Component {
                 );
                 case 11:
                     return <Success />
+                
+                default: break;
         }
     }
 }
