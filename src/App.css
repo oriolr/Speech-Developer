@@ -1,0 +1,17 @@
+* {
+  
+}
+
+.App {
+    margin: 0;
+    padding: 0;
+}
+.container {
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 40px;
+        /*background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);*/
+        background-repeat: none;
+        background-size: cover;
+        height: 100vh;
+}
