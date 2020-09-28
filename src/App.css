@@ -15,3 +15,12 @@
         background-size: cover;
         height: 100vh;
 }
+
+.navbutton {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: stretch;
+}

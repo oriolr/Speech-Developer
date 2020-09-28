@@ -20,6 +20,7 @@ export class PointOne extends Component {
                         <AppBar>
                           
                         </AppBar>
+                        <h2>What is the first main point of your speech</h2>
                       <form>
                         <TextField
                             label="First Main Point"

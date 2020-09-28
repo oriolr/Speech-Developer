@@ -18,19 +18,20 @@ export class SpeechIntro extends Component {
                 <MuiThemeProvider>
                     <React.Fragment>
                         <AppBar>
-                          
+                       
                         </AppBar>
-                      <form>
-                        <TextField
-                            label="Speech Introduction"
-                            onChange={handleChange('introduction')}
-                            defaultValue={values.introduction}
-                            />
-                        </form>
-                           
-                           <Button variant="contained" color="primary" onClick={this.continue}>Continue</Button>
-                           <Button variant="contained" color="secondary" onClick={this.back}>Back</Button>
-                    </React.Fragment>
+                            <h2>What is the introduction of your speech?</h2>
+                         <form>
+                            <TextField
+                                label="Speech Introduction"
+                                onChange={handleChange('introduction')}
+                                defaultValue={values.introduction}
+                                />
+                            </form>
+                            
+                            <Button variant="contained" color="primary" onClick={this.continue}>Continue</Button>
+                            <Button variant="contained" color="secondary" onClick={this.back}>Back</Button>
+                        </React.Fragment>
                 </MuiThemeProvider>
         )
     }

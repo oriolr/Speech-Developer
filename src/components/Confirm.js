@@ -36,6 +36,7 @@ export class FormUserDetails extends Component {
                         <AppBar>
                           
                         </AppBar>
+                        <h2>Congraulations you have completed your speech outline</h2>
                       <List>
                           <ListItem>
                             <ListItemText primary="Speech Title" secondary={speechTitle} />

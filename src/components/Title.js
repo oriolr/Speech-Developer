@@ -20,6 +20,7 @@ export class Title extends Component {
                         <AppBar>
                           
                         </AppBar>
+                        <h2>What is your speech title?</h2>
                       <form>
                         <TextField
                             label="Speech Title"

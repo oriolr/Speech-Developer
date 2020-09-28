@@ -18,8 +18,9 @@ export class PointThree extends Component {
                 <MuiThemeProvider>
                     <React.Fragment>
                         <AppBar>
-                          
+                       
                         </AppBar>
+                        <h2>What is the third main point of your speech</h2>
                       <form>
                         <TextField
                             label="Third Main Point"

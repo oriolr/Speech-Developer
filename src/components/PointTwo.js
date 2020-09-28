@@ -18,8 +18,9 @@ export class PointTwo extends Component {
                 <MuiThemeProvider>
                     <React.Fragment>
                         <AppBar>
-                          
+                        
                         </AppBar>
+                        <h2>What is the two main point of your speech</h2>
                       <form>
                         <TextField
                             label="Second Main Point"
