@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import AppBar from '@material-ui/core/AppBar';
 import TextField from "@material-ui/core/TextField";
-import Button from '@material-ui/core/Button';
+/*import Button from '@material-ui/core/Button';*/
 
 
 
@@ -21,7 +21,7 @@ export class Title extends Component {
                           
                         </AppBar>
                         <h2>What is your speech title?</h2>
-                      <form>
+                      <form className="submissionbox">
                         <TextField
                             label="Speech Title"
                             onChange={handleChange('speechTitle')}
@@ -29,7 +29,8 @@ export class Title extends Component {
                             />
                         </form>
                            
-                           <Button variant="contained" color="primary" onClick={this.continue}>Continue</Button>
+                          <button className="navbutton" onClick={this.continue}>Continue</button> 
+                          
                          
                     </React.Fragment>
                 </MuiThemeProvider>
@@ -39,3 +40,4 @@ export class Title extends Component {
 
 
 export default Title;
+

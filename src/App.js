@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import UserForm from './components/UserForm'
-import './App.css'
+import './styles.scss'
 
 export class App extends Component {
     render() {

@@ -1,0 +1,49 @@
+$redbutton: #c51162;
+$defaultfont:#ffffff;
+
+
+$smpadding: .25em;
+$mdpadding: .50em;
+$dftpadding: 1em;
+
+
+* {
+  
+}
+
+.App {
+    margin: 0;
+    padding: 0;
+}
+.container {
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 40px;
+        /*background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);*/
+        background-repeat: none;
+        background-size: cover;
+        height: 100vh;
+}
+
+.navbutton {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: baseline;
+	align-content: center;
+    background:$redbutton;
+    color: $defaultfont;
+    padding: $dftpadding;
+    border-radius: 50%;
+    border: none;
+}
+
+.submissionbox {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: center;
+}
