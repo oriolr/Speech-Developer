@@ -26,12 +26,6 @@ $dftpadding: 1em;
 }
 
 .navbutton {
-    display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	align-items: baseline;
-	align-content: center;
     background:$redbutton;
     color: $defaultfont;
     padding: $dftpadding;
