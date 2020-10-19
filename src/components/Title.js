@@ -29,7 +29,7 @@ export class Title extends Component {
                             />
                         </form>
                            
-                          <button className="navbutton" onClick={this.continue}> </button> 
+                          <button className="navbutton" onClick={this.continue}>Next</button> 
                           
                          
                     </React.Fragment>
